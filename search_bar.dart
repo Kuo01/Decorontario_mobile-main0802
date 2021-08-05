@@ -76,18 +76,18 @@ class  searchBarDelegate extends SearchDelegate<String> {
                   title: RichText(
 
                     text: TextSpan(
-                        text: suggestionList[index],//suggestionList[index].substring(0, query.length),
+                        text: suggestionList[index].substring(0, query.length),
                         style: TextStyle(
                             color: Colors.black, fontWeight: FontWeight.bold
                         ),
-                        /*children: [
+                        children: [
                           TextSpan(
                               text: suggestionList[index].substring(
                                   query.length),
                               style: TextStyle(color: Colors.grey
                               )
                           )
-                        ]*/
+                        ]
                     ),
                   ),
                 ),
